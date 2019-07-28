@@ -1,0 +1,84 @@
+<!doctype html>
+<!-- The DOCTYPE declaration above will set the     -->
+<!-- browser's rendering engine into                -->
+<!-- "Standards Mode". Replacing this declaration   -->
+<!-- with a "Quirks Mode" doctype is not supported. -->
+<html>
+
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <link type="text/css" rel="stylesheet" href="redHome.css">
+
+    <title>Red Home Project</title>
+
+    <!-- This script loads your compiled module.   -->
+    <!-- If you add any GWT meta tags, they must   -->
+    <!-- be added before this line.                -->
+
+    <script type="text/javascript" language="javascript" src="redhome/redhome.nocache.js"></script>
+  </head>
+
+  <header>
+    <nav id="choice">CHOOSE YOUR START LOCATION</nav>
+  </header>
+
+  <body>
+
+  <audio main_audio autoplay="autoplay">
+    <source src="media/main_sound.mp3" type="audio/mpeg">
+    Тег audio не поддерживается вашим браузером.
+  </audio>
+
+    <!-- Добавляет поддержку истории браузера -->
+  <iframe src="javascript:''" id="__gwt_historyFrame" tabindex="-1" style="position:absolute; width:0;height:0;border:0"></iframe>
+
+  <!-- Предупреждение о недоступности JavaScript -->
+    <noscript>
+      <div style="width: 22em; position: absolute; left: 50%; margin-left: -11em; color: red; background-color: white; border: 1px solid red; padding: 4px; font-family: sans-serif">
+        Your web browser must have JavaScript enabled
+        in order for this application to display correctly.
+      </div>
+    </noscript>
+
+
+<!-- Таблица с изображениями и описаниями трёх локации на стартовой странице -->
+    <table align="right" style="margin: 50px">
+      <tr>
+        <td>
+          <div class="moduleMarineris">
+          <img class="imgMarineris" src="media/imgs/Valles_Marineris_Small.jpg">
+            <h1 class="descMarineris">Я - подробное описание локации Маринера!</h1>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td id="nameFieldContainer">
+          <div class="moduleHellas">
+          <img class="imgHellas" src="media/imgs/Hellas_Planitia_Small.jpg">
+            <h1 class="descHellas">Я - подробное описание локации Эллада!</h1>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td id="errorLabelContainer">
+          <div class="moduleNoctis">
+            <img class="imgNoctis" src="media/imgs/Noctis_Labyrinthus_Small.jpg">
+            <h1 class="descNoctis">Я - подробное описание локации Ноктис!</h1>
+          </div>
+        </td>
+      </tr>
+    </table>
+
+
+<!-- Фоновое видео с планетой -->
+    <div id="nubexDiv" class="overlay">
+      <video id="nubexVideo" width="55%" height="auto" preload="auto" autoplay="true" loop="true">
+        <source src="media/mars_final.mp4" type="video/mp4">
+      </video>
+    </div>
+
+  </body>
+</html>

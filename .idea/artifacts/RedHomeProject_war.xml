@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="RedHomeProject:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>RedHomeProject</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="redHome-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="RedHomeProject:war exploded" />
+    </root>
+  </artifact>
+</component>

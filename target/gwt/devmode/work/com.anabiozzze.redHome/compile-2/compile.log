@@ -1,0 +1,13 @@
+binding: user.agent=safari
+Compiling module com.anabiozzze.redHome
+   Unification traversed 605 fields and methods and 174 types. 0 are considered part of the current module and 8 had all of their fields and methods traversed.
+   Compiling 1 permutation
+      Compiling permutation 0...
+      Linking per-type JS with 0 new/changed types.
+      Source Maps Enabled
+   Compile of permutations succeeded
+   Compilation succeeded -- 2,705s
+Linking into D:\Java\Projects\RedHomeProject\target\gwt\devmode\work\com.anabiozzze.redHome\compile-2\war\redhome; Writing extras to D:\Java\Projects\RedHomeProject\target\gwt\devmode\work\com.anabiozzze.redHome\compile-2\extras\redhome
+   Link succeeded
+   Linking succeeded -- 0,709s
+4,117s total -- Compile completed

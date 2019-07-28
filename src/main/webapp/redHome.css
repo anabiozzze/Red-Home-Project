@@ -1,0 +1,122 @@
+/** Add css rules here for your application. */
+
+
+/** Example rules used by the template application (remove for your app) */
+header {
+  background:#CC6926;
+  position: absolute;
+  width: 30%;
+  height: 13px;
+  text-align: right;
+  font-size: 12px;
+  color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  padding: 0.5em;
+}
+
+body {
+  background-image: url("media/imgs/mars_bg.jpg")
+}
+
+h1 {
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight: normal;
+  color: whitesmoke;
+  text-align: right;
+}
+
+img {
+  opacity:0.65;
+  -moz-opacity:0.8;
+  -khtml-opacity: 0.8;
+  background-color:#000;
+}
+
+img:hover {
+  opacity:1;
+  -moz-opacity:1;
+  -khtml-opacity: 1;
+  background-color:#000;
+}
+
+video {
+  position: absolute;
+  top: 170px;
+  left: 0;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+}
+
+/*Далее модули управления отображения текста при наведении на изображение локации*/
+
+/*Сперва локация 3 - Noctis_Labyrinthus*/
+.moduleNoctis {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  margin-right: 150px;
+}
+.imgNoctis {
+  display: block;
+  margin-top: 20px;
+}
+.descNoctis {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 230px;
+  width: 200px;
+  color: white;
+}
+.moduleNoctis:hover .descNoctis {
+  display: block;
+}
+
+/*Затем локация 2 - Hellas_Planitia*/
+
+.moduleHellas {
+  position: relative;
+  height: 200px;
+  width: 200px;
+}
+.imgHellas {
+  display: block;
+  margin-top: 20px;
+}
+.descHellas {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 230px;
+  width: 200px;
+  color: white;
+}
+.moduleHellas:hover .descHellas {
+  display: block;
+}
+
+/*Локация 3 - Valles_Marineris*/
+
+.moduleMarineris {
+  position: relative;
+  height: 200px;
+  width: 200px;
+}
+.imgMarineris {
+  display: block;
+}
+.descMarineris {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 230px;
+  width: 200px;
+  color: white;
+}
+.moduleMarineris:hover .descMarineris {
+  display: block;
+}

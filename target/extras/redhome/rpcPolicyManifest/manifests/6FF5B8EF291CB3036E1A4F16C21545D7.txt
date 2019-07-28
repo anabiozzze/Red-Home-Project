@@ -1,0 +1,2 @@
+serviceClass: com.anabiozzze.client.GreetingService
+path: 65D6BB621E158D55F6A25476C3B1ED90.gwt.rpc

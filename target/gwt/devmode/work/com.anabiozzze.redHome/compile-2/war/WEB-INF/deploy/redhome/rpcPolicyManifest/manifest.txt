@@ -1,0 +1,3 @@
+# Module redhome
+# RPC service class, partial path of RPC policy file
+com.anabiozzze.client.GreetingService, 65D6BB621E158D55F6A25476C3B1ED90.gwt.rpc
